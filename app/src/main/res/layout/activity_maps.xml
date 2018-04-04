@@ -7,6 +7,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MapsActivity" >
+    <SearchView
+        android:id="@+id/MainSearch"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:background="@android:color/background_light"
+        android:focusable="auto"
+        android:gravity="top"
+        android:orientation="horizontal"
+
+        android:visibility="visible" />
 
     <TextView
         android:id="@+id/textView"

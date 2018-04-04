@@ -3,6 +3,24 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <SearchView
+        android:id="@+id/MainSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:focusable="auto"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </SearchView>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
